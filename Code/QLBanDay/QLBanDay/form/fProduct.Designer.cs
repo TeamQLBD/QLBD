@@ -29,36 +29,36 @@ namespace QLBanDay
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelRightProduct = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.btnSize46 = new FontAwesome.Sharp.IconButton();
+            this.btnSize45 = new FontAwesome.Sharp.IconButton();
+            this.btnSize42 = new FontAwesome.Sharp.IconButton();
+            this.btnSize44 = new FontAwesome.Sharp.IconButton();
+            this.btnSize41 = new FontAwesome.Sharp.IconButton();
+            this.btnSize43 = new FontAwesome.Sharp.IconButton();
+            this.btnSize40 = new FontAwesome.Sharp.IconButton();
+            this.btnSize39 = new FontAwesome.Sharp.IconButton();
+            this.btnSize37 = new FontAwesome.Sharp.IconButton();
+            this.btnSize38 = new FontAwesome.Sharp.IconButton();
+            this.btnSize36 = new FontAwesome.Sharp.IconButton();
+            this.btnSize35 = new FontAwesome.Sharp.IconButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnAddProduct = new System.Windows.Forms.Button();
             this.btnDetailProduct = new System.Windows.Forms.Button();
             this.btnDeleteProduct = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtPriceProduct = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCountProduct = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnLinkImage = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNameProduct = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -70,9 +70,9 @@ namespace QLBanDay
             this.statusProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtSizeProduct = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.panel2.SuspendLayout();
+            this.panelRightProduct.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -85,304 +85,304 @@ namespace QLBanDay
             this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel2
+            // panelRightProduct
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panelRightProduct.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(70)))));
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(659, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(419, 607);
-            this.panel2.TabIndex = 6;
+            this.panelRightProduct.AutoScroll = true;
+            this.panelRightProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(70)))));
+            this.panelRightProduct.Controls.Add(this.panel5);
+            this.panelRightProduct.Controls.Add(this.panel4);
+            this.panelRightProduct.Controls.Add(this.panel3);
+            this.panelRightProduct.Location = new System.Drawing.Point(659, 0);
+            this.panelRightProduct.Name = "panelRightProduct";
+            this.panelRightProduct.Size = new System.Drawing.Size(419, 607);
+            this.panelRightProduct.TabIndex = 6;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.iconButton12);
-            this.panel5.Controls.Add(this.iconButton11);
-            this.panel5.Controls.Add(this.iconButton8);
-            this.panel5.Controls.Add(this.iconButton10);
-            this.panel5.Controls.Add(this.iconButton7);
-            this.panel5.Controls.Add(this.iconButton9);
-            this.panel5.Controls.Add(this.iconButton6);
-            this.panel5.Controls.Add(this.iconButton5);
-            this.panel5.Controls.Add(this.iconButton3);
-            this.panel5.Controls.Add(this.iconButton4);
-            this.panel5.Controls.Add(this.iconButton2);
-            this.panel5.Controls.Add(this.iconButton1);
+            this.panel5.Controls.Add(this.btnSize46);
+            this.panel5.Controls.Add(this.btnSize45);
+            this.panel5.Controls.Add(this.btnSize42);
+            this.panel5.Controls.Add(this.btnSize44);
+            this.panel5.Controls.Add(this.btnSize41);
+            this.panel5.Controls.Add(this.btnSize43);
+            this.panel5.Controls.Add(this.btnSize40);
+            this.panel5.Controls.Add(this.btnSize39);
+            this.panel5.Controls.Add(this.btnSize37);
+            this.panel5.Controls.Add(this.btnSize38);
+            this.panel5.Controls.Add(this.btnSize36);
+            this.panel5.Controls.Add(this.btnSize35);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 409);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(419, 165);
             this.panel5.TabIndex = 2;
             // 
-            // iconButton12
+            // btnSize46
             // 
-            this.iconButton12.AutoSize = true;
-            this.iconButton12.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton12.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton12.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton12.IconSize = 50;
-            this.iconButton12.Location = new System.Drawing.Point(331, 110);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Size = new System.Drawing.Size(56, 56);
-            this.iconButton12.TabIndex = 0;
-            this.iconButton12.Text = "46";
-            this.iconButton12.UseVisualStyleBackColor = false;
+            this.btnSize46.AutoSize = true;
+            this.btnSize46.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize46.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize46.FlatAppearance.BorderSize = 0;
+            this.btnSize46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize46.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize46.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize46.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize46.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize46.IconSize = 50;
+            this.btnSize46.Location = new System.Drawing.Point(331, 110);
+            this.btnSize46.Name = "btnSize46";
+            this.btnSize46.Size = new System.Drawing.Size(56, 56);
+            this.btnSize46.TabIndex = 0;
+            this.btnSize46.Text = "46";
+            this.btnSize46.UseVisualStyleBackColor = false;
             // 
-            // iconButton11
+            // btnSize45
             // 
-            this.iconButton11.AutoSize = true;
-            this.iconButton11.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton11.FlatAppearance.BorderSize = 0;
-            this.iconButton11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton11.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton11.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton11.IconSize = 50;
-            this.iconButton11.Location = new System.Drawing.Point(230, 110);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Size = new System.Drawing.Size(56, 56);
-            this.iconButton11.TabIndex = 0;
-            this.iconButton11.Text = "45";
-            this.iconButton11.UseVisualStyleBackColor = false;
+            this.btnSize45.AutoSize = true;
+            this.btnSize45.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize45.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize45.FlatAppearance.BorderSize = 0;
+            this.btnSize45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize45.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize45.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize45.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize45.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize45.IconSize = 50;
+            this.btnSize45.Location = new System.Drawing.Point(230, 110);
+            this.btnSize45.Name = "btnSize45";
+            this.btnSize45.Size = new System.Drawing.Size(56, 56);
+            this.btnSize45.TabIndex = 0;
+            this.btnSize45.Text = "45";
+            this.btnSize45.UseVisualStyleBackColor = false;
             // 
-            // iconButton8
+            // btnSize42
             // 
-            this.iconButton8.AutoSize = true;
-            this.iconButton8.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton8.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton8.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton8.IconSize = 50;
-            this.iconButton8.Location = new System.Drawing.Point(331, 58);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Size = new System.Drawing.Size(56, 56);
-            this.iconButton8.TabIndex = 0;
-            this.iconButton8.Text = "42";
-            this.iconButton8.UseVisualStyleBackColor = false;
+            this.btnSize42.AutoSize = true;
+            this.btnSize42.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize42.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize42.FlatAppearance.BorderSize = 0;
+            this.btnSize42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize42.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize42.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize42.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize42.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize42.IconSize = 50;
+            this.btnSize42.Location = new System.Drawing.Point(331, 58);
+            this.btnSize42.Name = "btnSize42";
+            this.btnSize42.Size = new System.Drawing.Size(56, 56);
+            this.btnSize42.TabIndex = 0;
+            this.btnSize42.Text = "42";
+            this.btnSize42.UseVisualStyleBackColor = false;
             // 
-            // iconButton10
+            // btnSize44
             // 
-            this.iconButton10.AutoSize = true;
-            this.iconButton10.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton10.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton10.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton10.IconSize = 50;
-            this.iconButton10.Location = new System.Drawing.Point(131, 110);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Size = new System.Drawing.Size(56, 56);
-            this.iconButton10.TabIndex = 0;
-            this.iconButton10.Text = "44";
-            this.iconButton10.UseVisualStyleBackColor = false;
+            this.btnSize44.AutoSize = true;
+            this.btnSize44.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize44.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize44.FlatAppearance.BorderSize = 0;
+            this.btnSize44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize44.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize44.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize44.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize44.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize44.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize44.IconSize = 50;
+            this.btnSize44.Location = new System.Drawing.Point(131, 110);
+            this.btnSize44.Name = "btnSize44";
+            this.btnSize44.Size = new System.Drawing.Size(56, 56);
+            this.btnSize44.TabIndex = 0;
+            this.btnSize44.Text = "44";
+            this.btnSize44.UseVisualStyleBackColor = false;
             // 
-            // iconButton7
+            // btnSize41
             // 
-            this.iconButton7.AutoSize = true;
-            this.iconButton7.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton7.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton7.IconSize = 50;
-            this.iconButton7.Location = new System.Drawing.Point(230, 58);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(56, 56);
-            this.iconButton7.TabIndex = 0;
-            this.iconButton7.Text = "41";
-            this.iconButton7.UseVisualStyleBackColor = false;
+            this.btnSize41.AutoSize = true;
+            this.btnSize41.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize41.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize41.FlatAppearance.BorderSize = 0;
+            this.btnSize41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize41.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize41.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize41.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize41.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize41.IconSize = 50;
+            this.btnSize41.Location = new System.Drawing.Point(230, 58);
+            this.btnSize41.Name = "btnSize41";
+            this.btnSize41.Size = new System.Drawing.Size(56, 56);
+            this.btnSize41.TabIndex = 0;
+            this.btnSize41.Text = "41";
+            this.btnSize41.UseVisualStyleBackColor = false;
             // 
-            // iconButton9
+            // btnSize43
             // 
-            this.iconButton9.AutoSize = true;
-            this.iconButton9.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton9.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton9.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton9.IconSize = 50;
-            this.iconButton9.Location = new System.Drawing.Point(32, 110);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Size = new System.Drawing.Size(56, 56);
-            this.iconButton9.TabIndex = 0;
-            this.iconButton9.Text = "43";
-            this.iconButton9.UseVisualStyleBackColor = false;
+            this.btnSize43.AutoSize = true;
+            this.btnSize43.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize43.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize43.FlatAppearance.BorderSize = 0;
+            this.btnSize43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize43.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize43.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize43.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize43.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize43.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize43.IconSize = 50;
+            this.btnSize43.Location = new System.Drawing.Point(32, 110);
+            this.btnSize43.Name = "btnSize43";
+            this.btnSize43.Size = new System.Drawing.Size(56, 56);
+            this.btnSize43.TabIndex = 0;
+            this.btnSize43.Text = "43";
+            this.btnSize43.UseVisualStyleBackColor = false;
             // 
-            // iconButton6
+            // btnSize40
             // 
-            this.iconButton6.AutoSize = true;
-            this.iconButton6.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton6.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton6.IconSize = 50;
-            this.iconButton6.Location = new System.Drawing.Point(131, 58);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(56, 56);
-            this.iconButton6.TabIndex = 0;
-            this.iconButton6.Text = "40";
-            this.iconButton6.UseVisualStyleBackColor = false;
+            this.btnSize40.AutoSize = true;
+            this.btnSize40.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize40.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize40.FlatAppearance.BorderSize = 0;
+            this.btnSize40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize40.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize40.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize40.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize40.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize40.IconSize = 50;
+            this.btnSize40.Location = new System.Drawing.Point(131, 58);
+            this.btnSize40.Name = "btnSize40";
+            this.btnSize40.Size = new System.Drawing.Size(56, 56);
+            this.btnSize40.TabIndex = 0;
+            this.btnSize40.Text = "40";
+            this.btnSize40.UseVisualStyleBackColor = false;
             // 
-            // iconButton5
+            // btnSize39
             // 
-            this.iconButton5.AutoSize = true;
-            this.iconButton5.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton5.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton5.IconSize = 50;
-            this.iconButton5.Location = new System.Drawing.Point(32, 58);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(56, 56);
-            this.iconButton5.TabIndex = 0;
-            this.iconButton5.Text = "39";
-            this.iconButton5.UseVisualStyleBackColor = false;
+            this.btnSize39.AutoSize = true;
+            this.btnSize39.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize39.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize39.FlatAppearance.BorderSize = 0;
+            this.btnSize39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize39.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize39.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize39.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize39.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize39.IconSize = 50;
+            this.btnSize39.Location = new System.Drawing.Point(32, 58);
+            this.btnSize39.Name = "btnSize39";
+            this.btnSize39.Size = new System.Drawing.Size(56, 56);
+            this.btnSize39.TabIndex = 0;
+            this.btnSize39.Text = "39";
+            this.btnSize39.UseVisualStyleBackColor = false;
             // 
-            // iconButton3
+            // btnSize37
             // 
-            this.iconButton3.AutoSize = true;
-            this.iconButton3.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton3.IconSize = 50;
-            this.iconButton3.Location = new System.Drawing.Point(230, 6);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(56, 56);
-            this.iconButton3.TabIndex = 0;
-            this.iconButton3.Text = "37";
-            this.iconButton3.UseVisualStyleBackColor = false;
+            this.btnSize37.AutoSize = true;
+            this.btnSize37.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize37.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize37.FlatAppearance.BorderSize = 0;
+            this.btnSize37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize37.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize37.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize37.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize37.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize37.IconSize = 50;
+            this.btnSize37.Location = new System.Drawing.Point(230, 6);
+            this.btnSize37.Name = "btnSize37";
+            this.btnSize37.Size = new System.Drawing.Size(56, 56);
+            this.btnSize37.TabIndex = 0;
+            this.btnSize37.Text = "37";
+            this.btnSize37.UseVisualStyleBackColor = false;
             // 
-            // iconButton4
+            // btnSize38
             // 
-            this.iconButton4.AutoSize = true;
-            this.iconButton4.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton4.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton4.IconSize = 50;
-            this.iconButton4.Location = new System.Drawing.Point(331, 6);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(56, 56);
-            this.iconButton4.TabIndex = 0;
-            this.iconButton4.Text = "38";
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.btnSize38.AutoSize = true;
+            this.btnSize38.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize38.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize38.FlatAppearance.BorderSize = 0;
+            this.btnSize38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize38.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize38.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize38.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize38.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize38.IconSize = 50;
+            this.btnSize38.Location = new System.Drawing.Point(331, 6);
+            this.btnSize38.Name = "btnSize38";
+            this.btnSize38.Size = new System.Drawing.Size(56, 56);
+            this.btnSize38.TabIndex = 0;
+            this.btnSize38.Text = "38";
+            this.btnSize38.UseVisualStyleBackColor = false;
             // 
-            // iconButton2
+            // btnSize36
             // 
-            this.iconButton2.AutoSize = true;
-            this.iconButton2.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton2.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton2.IconSize = 50;
-            this.iconButton2.Location = new System.Drawing.Point(131, 6);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(56, 56);
-            this.iconButton2.TabIndex = 0;
-            this.iconButton2.Text = "36";
-            this.iconButton2.UseVisualStyleBackColor = false;
+            this.btnSize36.AutoSize = true;
+            this.btnSize36.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize36.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize36.FlatAppearance.BorderSize = 0;
+            this.btnSize36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize36.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize36.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize36.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize36.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize36.IconSize = 50;
+            this.btnSize36.Location = new System.Drawing.Point(131, 6);
+            this.btnSize36.Name = "btnSize36";
+            this.btnSize36.Size = new System.Drawing.Size(56, 56);
+            this.btnSize36.TabIndex = 0;
+            this.btnSize36.Text = "36";
+            this.btnSize36.UseVisualStyleBackColor = false;
             // 
-            // iconButton1
+            // btnSize35
             // 
-            this.iconButton1.AutoSize = true;
-            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
-            this.iconButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconButton1.IconSize = 50;
-            this.iconButton1.Location = new System.Drawing.Point(32, 6);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(56, 56);
-            this.iconButton1.TabIndex = 0;
-            this.iconButton1.Text = "35";
-            this.iconButton1.UseVisualStyleBackColor = false;
+            this.btnSize35.AutoSize = true;
+            this.btnSize35.BackColor = System.Drawing.Color.Transparent;
+            this.btnSize35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSize35.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSize35.FlatAppearance.BorderSize = 0;
+            this.btnSize35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.btnSize35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSize35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSize35.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnSize35.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.btnSize35.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnSize35.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSize35.IconSize = 50;
+            this.btnSize35.Location = new System.Drawing.Point(32, 6);
+            this.btnSize35.Name = "btnSize35";
+            this.btnSize35.Size = new System.Drawing.Size(56, 56);
+            this.btnSize35.TabIndex = 0;
+            this.btnSize35.Text = "35";
+            this.btnSize35.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -463,20 +463,20 @@ namespace QLBanDay
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.textBox3);
+            this.panel9.Controls.Add(this.txtPriceProduct);
             this.panel9.Controls.Add(this.label5);
             this.panel9.Location = new System.Drawing.Point(0, 273);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(419, 52);
             this.panel9.TabIndex = 1;
             // 
-            // textBox3
+            // txtPriceProduct
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(149, 9);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(246, 29);
-            this.textBox3.TabIndex = 1;
+            this.txtPriceProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPriceProduct.Location = new System.Drawing.Point(149, 9);
+            this.txtPriceProduct.Name = "txtPriceProduct";
+            this.txtPriceProduct.Size = new System.Drawing.Size(246, 29);
+            this.txtPriceProduct.TabIndex = 1;
             // 
             // label5
             // 
@@ -491,20 +491,20 @@ namespace QLBanDay
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.textBox2);
+            this.panel8.Controls.Add(this.txtCountProduct);
             this.panel8.Controls.Add(this.label4);
             this.panel8.Location = new System.Drawing.Point(0, 157);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(419, 52);
             this.panel8.TabIndex = 1;
             // 
-            // textBox2
+            // txtCountProduct
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(149, 9);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(246, 29);
-            this.textBox2.TabIndex = 1;
+            this.txtCountProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCountProduct.Location = new System.Drawing.Point(149, 9);
+            this.txtCountProduct.Name = "txtCountProduct";
+            this.txtCountProduct.Size = new System.Drawing.Size(246, 29);
+            this.txtCountProduct.TabIndex = 1;
             // 
             // label4
             // 
@@ -519,21 +519,21 @@ namespace QLBanDay
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.button4);
+            this.panel7.Controls.Add(this.btnLinkImage);
             this.panel7.Controls.Add(this.label3);
             this.panel7.Location = new System.Drawing.Point(0, 99);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(419, 52);
             this.panel7.TabIndex = 1;
             // 
-            // button4
+            // btnLinkImage
             // 
-            this.button4.Location = new System.Drawing.Point(149, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "image";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnLinkImage.Location = new System.Drawing.Point(149, 12);
+            this.btnLinkImage.Name = "btnLinkImage";
+            this.btnLinkImage.Size = new System.Drawing.Size(75, 23);
+            this.btnLinkImage.TabIndex = 1;
+            this.btnLinkImage.Text = "image";
+            this.btnLinkImage.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -548,20 +548,20 @@ namespace QLBanDay
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.textBox1);
+            this.panel6.Controls.Add(this.txtNameProduct);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Location = new System.Drawing.Point(0, 41);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(419, 52);
             this.panel6.TabIndex = 1;
             // 
-            // textBox1
+            // txtNameProduct
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(149, 10);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 29);
-            this.textBox1.TabIndex = 1;
+            this.txtNameProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNameProduct.Location = new System.Drawing.Point(149, 10);
+            this.txtNameProduct.Name = "txtNameProduct";
+            this.txtNameProduct.Size = new System.Drawing.Size(246, 29);
+            this.txtNameProduct.TabIndex = 1;
             // 
             // label2
             // 
@@ -655,20 +655,20 @@ namespace QLBanDay
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.textBox4);
+            this.panel10.Controls.Add(this.txtSizeProduct);
             this.panel10.Controls.Add(this.label6);
             this.panel10.Location = new System.Drawing.Point(0, 215);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(419, 52);
             this.panel10.TabIndex = 1;
             // 
-            // textBox4
+            // txtSizeProduct
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(149, 9);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(246, 29);
-            this.textBox4.TabIndex = 1;
+            this.txtSizeProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSizeProduct.Location = new System.Drawing.Point(149, 9);
+            this.txtSizeProduct.Name = "txtSizeProduct";
+            this.txtSizeProduct.Size = new System.Drawing.Size(246, 29);
+            this.txtSizeProduct.TabIndex = 1;
             // 
             // label6
             // 
@@ -686,11 +686,11 @@ namespace QLBanDay
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1079, 607);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelRightProduct);
             this.Controls.Add(this.panel1);
             this.Name = "fProduct";
             this.Text = "Product";
-            this.panel2.ResumeLayout(false);
+            this.panelRightProduct.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -714,39 +714,39 @@ namespace QLBanDay
 
         #endregion
 
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelRightProduct;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton btnSize35;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnAddProduct;
         private System.Windows.Forms.Button btnDetailProduct;
         private System.Windows.Forms.Button btnDeleteProduct;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton8;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton12;
+        private FontAwesome.Sharp.IconButton btnSize45;
+        private FontAwesome.Sharp.IconButton btnSize42;
+        private FontAwesome.Sharp.IconButton btnSize44;
+        private FontAwesome.Sharp.IconButton btnSize41;
+        private FontAwesome.Sharp.IconButton btnSize43;
+        private FontAwesome.Sharp.IconButton btnSize40;
+        private FontAwesome.Sharp.IconButton btnSize39;
+        private FontAwesome.Sharp.IconButton btnSize37;
+        private FontAwesome.Sharp.IconButton btnSize38;
+        private FontAwesome.Sharp.IconButton btnSize36;
+        private FontAwesome.Sharp.IconButton btnSize46;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNameProduct;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtPriceProduct;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCountProduct;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnLinkImage;
         private System.Windows.Forms.DataGridView dgvShowProduct;
         private System.Windows.Forms.DataGridViewTextBoxColumn stt;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameProduct;
@@ -755,7 +755,7 @@ namespace QLBanDay
         private System.Windows.Forms.DataGridViewTextBoxColumn statusProduct;
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionProduct;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtSizeProduct;
         private System.Windows.Forms.Label label6;
     }
 }
