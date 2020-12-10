@@ -14,3 +14,6 @@ F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fLogin.resou
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fDashboard.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fCustomer.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fProduct.resources
+F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fListProduct.resources
+F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fAddProduct.resources
+F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fBill.resources

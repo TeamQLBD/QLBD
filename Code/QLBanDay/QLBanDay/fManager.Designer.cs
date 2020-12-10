@@ -30,57 +30,100 @@ namespace QLBanDay
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fManager));
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.panelBill = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.btnBill = new FontAwesome.Sharp.IconButton();
+            this.panelCustomer = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.btnCustomer = new FontAwesome.Sharp.IconButton();
+            this.panelEmployee = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.btnEmployee = new FontAwesome.Sharp.IconButton();
+            this.panelProduct = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnListProduct = new System.Windows.Forms.Button();
             this.btnProduct = new FontAwesome.Sharp.IconButton();
+            this.panelDashboard = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.btnDashboard = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.iconExit = new FontAwesome.Sharp.IconPictureBox();
-            this.ixonMaxinum = new FontAwesome.Sharp.IconPictureBox();
             this.iconMininum = new FontAwesome.Sharp.IconPictureBox();
+            this.iconExit = new FontAwesome.Sharp.IconPictureBox();
+            this.ionMaxinum = new FontAwesome.Sharp.IconPictureBox();
             this.lblTitleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.panelMenu.SuspendLayout();
+            this.panelBill.SuspendLayout();
+            this.panelCustomer.SuspendLayout();
+            this.panelEmployee.SuspendLayout();
+            this.panelProduct.SuspendLayout();
+            this.panelDashboard.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTitleBar.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconExit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ixonMaxinum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMininum)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ionMaxinum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
             this.panelDesktop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
             // panelMenu
             // 
+            this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.panelMenu.Controls.Add(this.panelBill);
             this.panelMenu.Controls.Add(this.btnBill);
+            this.panelMenu.Controls.Add(this.panelCustomer);
             this.panelMenu.Controls.Add(this.btnCustomer);
+            this.panelMenu.Controls.Add(this.panelEmployee);
+            this.panelMenu.Controls.Add(this.btnEmployee);
+            this.panelMenu.Controls.Add(this.panelProduct);
             this.panelMenu.Controls.Add(this.btnProduct);
+            this.panelMenu.Controls.Add(this.panelDashboard);
             this.panelMenu.Controls.Add(this.btnDashboard);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(250, 783);
+            this.panelMenu.Size = new System.Drawing.Size(280, 1061);
             this.panelMenu.TabIndex = 1;
+            // 
+            // panelBill
+            // 
+            this.panelBill.Controls.Add(this.button8);
+            this.panelBill.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBill.Location = new System.Drawing.Point(0, 926);
+            this.panelBill.Name = "panelBill";
+            this.panelBill.Size = new System.Drawing.Size(280, 58);
+            this.panelBill.TabIndex = 9;
+            // 
+            // button8
+            // 
+            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button8.Location = new System.Drawing.Point(0, 0);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(280, 45);
+            this.button8.TabIndex = 5;
+            this.button8.Text = "Danh sách khách hàng";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // btnBill
             // 
@@ -99,16 +142,40 @@ namespace QLBanDay
             this.btnBill.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnBill.IconSize = 35;
             this.btnBill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBill.Location = new System.Drawing.Point(0, 430);
+            this.btnBill.Location = new System.Drawing.Point(0, 866);
             this.btnBill.Name = "btnBill";
             this.btnBill.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnBill.Size = new System.Drawing.Size(250, 60);
+            this.btnBill.Size = new System.Drawing.Size(280, 60);
             this.btnBill.TabIndex = 4;
             this.btnBill.Text = "Hóa đơn";
             this.btnBill.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBill.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBill.UseVisualStyleBackColor = false;
             this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
+            // 
+            // panelCustomer
+            // 
+            this.panelCustomer.Controls.Add(this.button6);
+            this.panelCustomer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelCustomer.Location = new System.Drawing.Point(0, 802);
+            this.panelCustomer.Name = "panelCustomer";
+            this.panelCustomer.Size = new System.Drawing.Size(280, 64);
+            this.panelCustomer.TabIndex = 8;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(280, 45);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "Danh sách khách hàng";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // btnCustomer
             // 
@@ -122,21 +189,146 @@ namespace QLBanDay
             this.btnCustomer.Flip = FontAwesome.Sharp.FlipOrientation.Horizontal;
             this.btnCustomer.Font = new System.Drawing.Font("NewsGoth BT", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCustomer.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCustomer.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            this.btnCustomer.IconChar = FontAwesome.Sharp.IconChar.User;
             this.btnCustomer.IconColor = System.Drawing.Color.White;
             this.btnCustomer.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnCustomer.IconSize = 35;
             this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.Location = new System.Drawing.Point(0, 370);
+            this.btnCustomer.Location = new System.Drawing.Point(0, 742);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCustomer.Size = new System.Drawing.Size(250, 60);
+            this.btnCustomer.Size = new System.Drawing.Size(280, 60);
             this.btnCustomer.TabIndex = 3;
             this.btnCustomer.Text = "Khách hàng";
             this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCustomer.UseVisualStyleBackColor = false;
             this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+            // 
+            // panelEmployee
+            // 
+            this.panelEmployee.Controls.Add(this.button7);
+            this.panelEmployee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelEmployee.Location = new System.Drawing.Point(0, 681);
+            this.panelEmployee.Name = "panelEmployee";
+            this.panelEmployee.Size = new System.Drawing.Size(280, 61);
+            this.panelEmployee.TabIndex = 11;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button7.Location = new System.Drawing.Point(0, 0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(280, 45);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "Danh sách khách hàng";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // btnEmployee
+            // 
+            this.btnEmployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
+            this.btnEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEmployee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmployee.FlatAppearance.BorderSize = 0;
+            this.btnEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.btnEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmployee.Flip = FontAwesome.Sharp.FlipOrientation.Horizontal;
+            this.btnEmployee.Font = new System.Drawing.Font("NewsGoth BT", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployee.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnEmployee.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.btnEmployee.IconColor = System.Drawing.Color.White;
+            this.btnEmployee.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnEmployee.IconSize = 35;
+            this.btnEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmployee.Location = new System.Drawing.Point(0, 621);
+            this.btnEmployee.Name = "btnEmployee";
+            this.btnEmployee.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnEmployee.Size = new System.Drawing.Size(280, 60);
+            this.btnEmployee.TabIndex = 10;
+            this.btnEmployee.Text = "Nhân viên";
+            this.btnEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEmployee.UseVisualStyleBackColor = false;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
+            // 
+            // panelProduct
+            // 
+            this.panelProduct.Controls.Add(this.button3);
+            this.panelProduct.Controls.Add(this.button2);
+            this.panelProduct.Controls.Add(this.button1);
+            this.panelProduct.Controls.Add(this.btnListProduct);
+            this.panelProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelProduct.Location = new System.Drawing.Point(0, 433);
+            this.panelProduct.Name = "panelProduct";
+            this.panelProduct.Size = new System.Drawing.Size(280, 188);
+            this.panelProduct.TabIndex = 6;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button3.Location = new System.Drawing.Point(0, 135);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(280, 45);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Nhãn hiệu";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button2.Location = new System.Drawing.Point(0, 90);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(280, 45);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Đơn vị tính";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button1.Location = new System.Drawing.Point(0, 45);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(280, 45);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Nhà cung cấp";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnListProduct
+            // 
+            this.btnListProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListProduct.FlatAppearance.BorderSize = 0;
+            this.btnListProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnListProduct.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnListProduct.Location = new System.Drawing.Point(0, 0);
+            this.btnListProduct.Name = "btnListProduct";
+            this.btnListProduct.Size = new System.Drawing.Size(280, 45);
+            this.btnListProduct.TabIndex = 3;
+            this.btnListProduct.Text = "Danh sách sản phẩm";
+            this.btnListProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnListProduct.UseVisualStyleBackColor = true;
+            this.btnListProduct.Click += new System.EventHandler(this.btnListProduct_Click);
             // 
             // btnProduct
             // 
@@ -150,21 +342,45 @@ namespace QLBanDay
             this.btnProduct.Flip = FontAwesome.Sharp.FlipOrientation.Horizontal;
             this.btnProduct.Font = new System.Drawing.Font("NewsGoth BT", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProduct.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnProduct.IconChar = FontAwesome.Sharp.IconChar.ShoppingBag;
+            this.btnProduct.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
             this.btnProduct.IconColor = System.Drawing.Color.White;
             this.btnProduct.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnProduct.IconSize = 35;
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProduct.Location = new System.Drawing.Point(0, 310);
+            this.btnProduct.Location = new System.Drawing.Point(0, 373);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnProduct.Size = new System.Drawing.Size(250, 60);
+            this.btnProduct.Size = new System.Drawing.Size(280, 60);
             this.btnProduct.TabIndex = 2;
             this.btnProduct.Text = "Sản phẩm";
             this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProduct.UseVisualStyleBackColor = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
+            // 
+            // panelDashboard
+            // 
+            this.panelDashboard.Controls.Add(this.button5);
+            this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelDashboard.Location = new System.Drawing.Point(0, 310);
+            this.panelDashboard.Name = "panelDashboard";
+            this.panelDashboard.Size = new System.Drawing.Size(280, 63);
+            this.panelDashboard.TabIndex = 7;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button5.Location = new System.Drawing.Point(0, 0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(280, 45);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Nhà cung cấp";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // btnDashboard
             // 
@@ -186,7 +402,7 @@ namespace QLBanDay
             this.btnDashboard.Location = new System.Drawing.Point(0, 250);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnDashboard.Size = new System.Drawing.Size(250, 60);
+            this.btnDashboard.Size = new System.Drawing.Size(280, 60);
             this.btnDashboard.TabIndex = 1;
             this.btnDashboard.Text = "Thống kê";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -208,13 +424,13 @@ namespace QLBanDay
             this.btnHome.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnHome.IconChar = FontAwesome.Sharp.IconChar.Home;
             this.btnHome.IconColor = System.Drawing.Color.White;
-            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnHome.IconSize = 35;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(0, 190);
             this.btnHome.Name = "btnHome";
             this.btnHome.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnHome.Size = new System.Drawing.Size(250, 60);
+            this.btnHome.Size = new System.Drawing.Size(280, 60);
             this.btnHome.TabIndex = 5;
             this.btnHome.Text = "Trang chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -228,13 +444,13 @@ namespace QLBanDay
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(250, 190);
+            this.panelLogo.Size = new System.Drawing.Size(280, 190);
             this.panelLogo.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(42, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(60, 58);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 83);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -248,67 +464,67 @@ namespace QLBanDay
             this.panelTitleBar.Controls.Add(this.lblTitleChildForm);
             this.panelTitleBar.Controls.Add(this.iconCurrentChildForm);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(250, 0);
+            this.panelTitleBar.Location = new System.Drawing.Point(280, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1090, 58);
+            this.panelTitleBar.Size = new System.Drawing.Size(1060, 58);
             this.panelTitleBar.TabIndex = 2;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.iconExit);
-            this.panel2.Controls.Add(this.ixonMaxinum);
             this.panel2.Controls.Add(this.iconMininum);
+            this.panel2.Controls.Add(this.iconExit);
+            this.panel2.Controls.Add(this.ionMaxinum);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(894, 0);
+            this.panel2.Location = new System.Drawing.Point(864, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(196, 58);
             this.panel2.TabIndex = 2;
             // 
-            // iconExit
-            // 
-            this.iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
-            this.iconExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(134)))), ((int)(((byte)(60)))));
-            this.iconExit.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconExit.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(134)))), ((int)(((byte)(60)))));
-            this.iconExit.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconExit.IconSize = 30;
-            this.iconExit.Location = new System.Drawing.Point(91, 6);
-            this.iconExit.Name = "iconExit";
-            this.iconExit.Size = new System.Drawing.Size(30, 30);
-            this.iconExit.TabIndex = 3;
-            this.iconExit.TabStop = false;
-            this.iconExit.Click += new System.EventHandler(this.iconMininum_Click);
-            // 
-            // ixonMaxinum
-            // 
-            this.ixonMaxinum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
-            this.ixonMaxinum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.ixonMaxinum.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.ixonMaxinum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.ixonMaxinum.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.ixonMaxinum.IconSize = 30;
-            this.ixonMaxinum.Location = new System.Drawing.Point(163, 6);
-            this.ixonMaxinum.Name = "ixonMaxinum";
-            this.ixonMaxinum.Size = new System.Drawing.Size(30, 30);
-            this.ixonMaxinum.TabIndex = 3;
-            this.ixonMaxinum.TabStop = false;
-            this.ixonMaxinum.Click += new System.EventHandler(this.iconExit_Click);
-            // 
             // iconMininum
             // 
             this.iconMininum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
-            this.iconMininum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(239)))), ((int)(((byte)(115)))));
+            this.iconMininum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(134)))), ((int)(((byte)(60)))));
             this.iconMininum.IconChar = FontAwesome.Sharp.IconChar.Circle;
-            this.iconMininum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(239)))), ((int)(((byte)(115)))));
+            this.iconMininum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(134)))), ((int)(((byte)(60)))));
             this.iconMininum.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconMininum.IconSize = 30;
-            this.iconMininum.Location = new System.Drawing.Point(127, 6);
+            this.iconMininum.Location = new System.Drawing.Point(91, 6);
             this.iconMininum.Name = "iconMininum";
             this.iconMininum.Size = new System.Drawing.Size(30, 30);
             this.iconMininum.TabIndex = 3;
             this.iconMininum.TabStop = false;
-            this.iconMininum.Click += new System.EventHandler(this.ixonMaxinum_Click);
+            this.iconMininum.Click += new System.EventHandler(this.iconMininum_Click);
+            // 
+            // iconExit
+            // 
+            this.iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
+            this.iconExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.iconExit.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.iconExit.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.iconExit.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconExit.IconSize = 30;
+            this.iconExit.Location = new System.Drawing.Point(163, 6);
+            this.iconExit.Name = "iconExit";
+            this.iconExit.Size = new System.Drawing.Size(30, 30);
+            this.iconExit.TabIndex = 3;
+            this.iconExit.TabStop = false;
+            this.iconExit.Click += new System.EventHandler(this.iconExit_Click);
+            // 
+            // ionMaxinum
+            // 
+            this.ionMaxinum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
+            this.ionMaxinum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(239)))), ((int)(((byte)(115)))));
+            this.ionMaxinum.IconChar = FontAwesome.Sharp.IconChar.Circle;
+            this.ionMaxinum.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(239)))), ((int)(((byte)(115)))));
+            this.ionMaxinum.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.ionMaxinum.IconSize = 30;
+            this.ionMaxinum.Location = new System.Drawing.Point(127, 6);
+            this.ionMaxinum.Name = "ionMaxinum";
+            this.ionMaxinum.Size = new System.Drawing.Size(30, 30);
+            this.ionMaxinum.TabIndex = 3;
+            this.ionMaxinum.TabStop = false;
+            this.ionMaxinum.Click += new System.EventHandler(this.iconMaxinum_Click);
             // 
             // lblTitleChildForm
             // 
@@ -339,17 +555,17 @@ namespace QLBanDay
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(45)))));
             this.panelDesktop.Controls.Add(this.pictureBox2);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(250, 58);
-            this.panelDesktop.MinimumSize = new System.Drawing.Size(1095, 646);
+            this.panelDesktop.Location = new System.Drawing.Point(280, 58);
+            this.panelDesktop.MinimumSize = new System.Drawing.Size(1060, 1003);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1095, 725);
+            this.panelDesktop.Size = new System.Drawing.Size(1060, 1003);
             this.panelDesktop.TabIndex = 3;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(236, 168);
+            this.pictureBox2.Location = new System.Drawing.Point(219, 307);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(633, 368);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -360,7 +576,7 @@ namespace QLBanDay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1340, 783);
+            this.ClientSize = new System.Drawing.Size(1340, 1061);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
@@ -370,16 +586,20 @@ namespace QLBanDay
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "  ";
             this.Load += new System.EventHandler(this.fManager_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.panelMenu.ResumeLayout(false);
+            this.panelBill.ResumeLayout(false);
+            this.panelCustomer.ResumeLayout(false);
+            this.panelEmployee.ResumeLayout(false);
+            this.panelProduct.ResumeLayout(false);
+            this.panelDashboard.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconExit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ixonMaxinum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMininum)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ionMaxinum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
             this.panelDesktop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -388,8 +608,6 @@ namespace QLBanDay
         }
 
         #endregion
-
-        private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton btnBill;
         private FontAwesome.Sharp.IconButton btnCustomer;
@@ -403,9 +621,23 @@ namespace QLBanDay
         private System.Windows.Forms.Label lblTitleChildForm;
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.Panel panel2;
-        private FontAwesome.Sharp.IconPictureBox iconExit;
         private FontAwesome.Sharp.IconPictureBox iconMininum;
-        private FontAwesome.Sharp.IconPictureBox ixonMaxinum;
+        private FontAwesome.Sharp.IconPictureBox ionMaxinum;
+        private FontAwesome.Sharp.IconPictureBox iconExit;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panelProduct;
+        private System.Windows.Forms.Button btnListProduct;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelBill;
+        private System.Windows.Forms.Panel panelCustomer;
+        private System.Windows.Forms.Panel panelDashboard;
+        private FontAwesome.Sharp.IconButton btnEmployee;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panelEmployee;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
     }
 }

@@ -21,6 +21,27 @@ namespace QLBanDay
         public fManager()
         {
             InitializeComponent();
+            hideSubMenu();
+        }
+
+        private void hideSubMenu()
+        {
+            panelProduct.Visible = false;
+            panelBill.Visible = false;
+            panelCustomer.Visible = false;
+            panelDashboard.Visible = false;
+            panelEmployee.Visible = false;
+        }
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false;
         }
 
         private void fManager_Load(object sender, EventArgs e)
@@ -46,7 +67,7 @@ namespace QLBanDay
             public static Color color5 = Color.FromArgb(249, 88, 155);
             public static Color color6 = Color.FromArgb(24, 161, 251);
         }
-
+        #region common method
         //Methods
         private void ActivateButton(object senderBtn, Color color)
         {
@@ -85,39 +106,13 @@ namespace QLBanDay
             }
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void Reset()
         {
-            
-            if (currentChildForm != null)
-            {
-                currentChildForm.Close();
-            }
-            Reset();
-            ActivateButton(sender, RGBColors.color6);
-        }
-
-        private void btnDashboard_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new fDashboard());
-        }
-
-        private void btnProduct_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new fProduct());
-        }
-
-        private void btnCustomer_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new fCustomer());
-        }
-
-        private void btnBill_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new fBill());
+            DisableButton();
+            leftBorderBtn.Visible = false;
+            iconCurrentChildForm.IconChar = IconChar.Home;
+            iconCurrentChildForm.IconColor = Color.MediumPurple;
+            lblTitleChildForm.Text = "Home";
         }
 
         private void OpenChildForm(Form childForm)
@@ -137,16 +132,64 @@ namespace QLBanDay
             childForm.Show();
             lblTitleChildForm.Text = childForm.Text;
         }
-        private void Reset()
+#endregion
+
+        #region button
+        private void btnHome_Click(object sender, EventArgs e)
         {
-            DisableButton();
-            leftBorderBtn.Visible = false;
-            iconCurrentChildForm.IconChar = IconChar.Home;
-            iconCurrentChildForm.IconColor = Color.MediumPurple;
-            lblTitleChildForm.Text = "Home";
+            
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            Reset();
+            ActivateButton(sender, RGBColors.color6);
+            hideSubMenu();
         }
 
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color1);
+            showSubMenu(panelDashboard);
+            //OpenChildForm(new fDashboard());
+        }
 
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color2);
+            showSubMenu(panelProduct);
+            //OpenChildForm(new fProduct());
+        }
+
+        private void btnListProduct_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new fListProduct());
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color5);
+            showSubMenu(panelEmployee);
+            //OpenChildForm(new fCustomer());
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color3);
+            showSubMenu(panelCustomer);
+            //OpenChildForm(new fCustomer());
+        }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color4);
+            showSubMenu(panelBill);
+            //OpenChildForm(new fBill());
+        }
+
+#endregion
+
+        #region start exit-min-max_room
         ////Close-Maximize-Minimize
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -172,14 +215,15 @@ namespace QLBanDay
         {
             WindowState = FormWindowState.Minimized;
         }
-
-        private void ixonMaxinum_Click(object sender, EventArgs e)
+        private void iconMaxinum_Click(object sender, EventArgs e)
         {
             if (WindowState == FormWindowState.Normal)
                 WindowState = FormWindowState.Maximized;
             else
                 WindowState = FormWindowState.Normal;
         }
+        #endregion
+
 
     }
 }

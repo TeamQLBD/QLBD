@@ -17,7 +17,7 @@ namespace QLBanDay
             InitializeComponent();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
+        private void fProduct_Load(object sender, EventArgs e)
         {
 
         }

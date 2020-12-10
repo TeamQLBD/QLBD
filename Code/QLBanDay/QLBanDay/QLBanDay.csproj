@@ -50,6 +50,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL.cs" />
+    <Compile Include="common.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="fAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAddProduct.Designer.cs">
+      <DependentUpon>fAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduct\fListProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduct\fListProduct.Designer.cs">
+      <DependentUpon>fListProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\fBill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,10 +83,10 @@
     <Compile Include="form\fDashboard.Designer.cs">
       <DependentUpon>fDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\fManager.cs">
+    <Compile Include="fManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\fManager.Designer.cs">
+    <Compile Include="fManager.Designer.cs">
       <DependentUpon>fManager.cs</DependentUpon>
     </Compile>
     <Compile Include="fLogin.cs">
@@ -80,27 +95,36 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\fProduct.cs">
+    <Compile Include="FormProduct\fProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\fProduct.Designer.cs">
+    <Compile Include="FormProduct\fProduct.Designer.cs">
       <DependentUpon>fProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fAddProduct.resx">
+      <DependentUpon>fAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduct\fListProduct.resx">
+      <DependentUpon>fListProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\fBill.resx">
+      <DependentUpon>fBill.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\fCustomer.resx">
       <DependentUpon>fCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\fDashboard.resx">
       <DependentUpon>fDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form\fManager.resx">
+    <EmbeddedResource Include="fManager.resx">
       <DependentUpon>fManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form\fProduct.resx">
+    <EmbeddedResource Include="FormProduct\fProduct.resx">
       <DependentUpon>fProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -126,5 +150,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
