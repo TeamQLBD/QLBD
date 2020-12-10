@@ -69,6 +69,9 @@ namespace QLBanDay
             this.priceProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descriptionProduct = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -79,6 +82,7 @@ namespace QLBanDay
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowProduct)).BeginInit();
+            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -110,7 +114,7 @@ namespace QLBanDay
             this.panel5.Controls.Add(this.iconButton2);
             this.panel5.Controls.Add(this.iconButton1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 380);
+            this.panel5.Location = new System.Drawing.Point(0, 409);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(419, 165);
             this.panel5.TabIndex = 2;
@@ -386,7 +390,7 @@ namespace QLBanDay
             this.panel4.Controls.Add(this.btnDetailProduct);
             this.panel4.Controls.Add(this.btnDeleteProduct);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 307);
+            this.panel4.Location = new System.Drawing.Point(0, 336);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(419, 73);
             this.panel4.TabIndex = 1;
@@ -444,6 +448,7 @@ namespace QLBanDay
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.panel10);
             this.panel3.Controls.Add(this.panel9);
             this.panel3.Controls.Add(this.panel8);
             this.panel3.Controls.Add(this.panel7);
@@ -452,14 +457,15 @@ namespace QLBanDay
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(419, 307);
+            this.panel3.Size = new System.Drawing.Size(419, 336);
             this.panel3.TabIndex = 0;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.textBox3);
             this.panel9.Controls.Add(this.label5);
-            this.panel9.Location = new System.Drawing.Point(0, 215);
+            this.panel9.Location = new System.Drawing.Point(0, 273);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(419, 52);
             this.panel9.TabIndex = 1;
@@ -647,6 +653,34 @@ namespace QLBanDay
             this.descriptionProduct.Name = "descriptionProduct";
             this.descriptionProduct.ReadOnly = true;
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.textBox4);
+            this.panel10.Controls.Add(this.label6);
+            this.panel10.Location = new System.Drawing.Point(0, 215);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(419, 52);
+            this.panel10.TabIndex = 1;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(149, 9);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(246, 29);
+            this.textBox4.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label6.Location = new System.Drawing.Point(6, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 24);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Size";
+            // 
             // fProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -672,6 +706,8 @@ namespace QLBanDay
             this.panel6.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvShowProduct)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -718,5 +754,8 @@ namespace QLBanDay
         private System.Windows.Forms.DataGridViewTextBoxColumn priceProduct;
         private System.Windows.Forms.DataGridViewTextBoxColumn statusProduct;
         private System.Windows.Forms.DataGridViewTextBoxColumn descriptionProduct;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label6;
     }
 }
