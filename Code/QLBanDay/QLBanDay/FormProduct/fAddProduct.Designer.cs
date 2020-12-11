@@ -233,9 +233,9 @@ namespace QLBanDay
             this.label12.ForeColor = System.Drawing.Color.Gainsboro;
             this.label12.Location = new System.Drawing.Point(69, 46);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(173, 24);
+            this.label12.Size = new System.Drawing.Size(161, 24);
             this.label12.TabIndex = 6;
-            this.label12.Text = "Thông tin công ty";
+            this.label12.Text = "Thêm sản phẩm";
             // 
             // label17
             // 

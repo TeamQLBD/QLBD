@@ -179,7 +179,7 @@ namespace QLBanDay
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(965, 130);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(211, 33);
+            this.comboBox3.Size = new System.Drawing.Size(306, 33);
             this.comboBox3.TabIndex = 3;
             // 
             // comboBox2
@@ -189,7 +189,7 @@ namespace QLBanDay
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(620, 130);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(211, 33);
+            this.comboBox2.Size = new System.Drawing.Size(305, 33);
             this.comboBox2.TabIndex = 3;
             // 
             // textBox7
@@ -314,16 +314,16 @@ namespace QLBanDay
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(965, 83);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(211, 33);
+            this.comboBox1.Size = new System.Drawing.Size(305, 33);
             this.comboBox1.TabIndex = 3;
             // 
             // textBox2
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(665, 82);
+            this.textBox2.Location = new System.Drawing.Point(620, 83);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(260, 30);
+            this.textBox2.Size = new System.Drawing.Size(305, 30);
             this.textBox2.TabIndex = 2;
             // 
             // textBox1
@@ -332,7 +332,7 @@ namespace QLBanDay
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(277, 83);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(351, 30);
+            this.textBox1.Size = new System.Drawing.Size(305, 30);
             this.textBox1.TabIndex = 2;
             // 
             // label5
@@ -353,7 +353,7 @@ namespace QLBanDay
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label4.Location = new System.Drawing.Point(662, 55);
+            this.label4.Location = new System.Drawing.Point(617, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(32, 17);
             this.label4.TabIndex = 1;
