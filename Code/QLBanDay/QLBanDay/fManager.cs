@@ -90,6 +90,8 @@ namespace QLBanDay
                 //Current Child Form Icon
                 iconCurrentChildForm.IconChar = currentBtn.IconChar;
                 iconCurrentChildForm.IconColor = color;
+
+                lblTitleChildForm.Text = currentBtn.Text;
             }
         }
 
@@ -166,6 +168,11 @@ namespace QLBanDay
             OpenChildForm(new fListProduct());
         }
 
+        private void btnCompany_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new fcompany());
+        }
+
         private void btnEmployee_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
@@ -222,8 +229,7 @@ namespace QLBanDay
             else
                 WindowState = FormWindowState.Normal;
         }
+
         #endregion
-
-
     }
 }

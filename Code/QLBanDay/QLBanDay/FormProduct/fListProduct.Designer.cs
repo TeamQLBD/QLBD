@@ -233,7 +233,7 @@ namespace QLBanDay
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "fListProduct";
-            this.Text = "fListProduct";
+            this.Text = "Danh sách sản phẩm";
             this.Load += new System.EventHandler(this.fListProduct_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

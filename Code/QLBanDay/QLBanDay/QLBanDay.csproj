@@ -53,11 +53,23 @@
     <Compile Include="BLL.cs" />
     <Compile Include="common.cs" />
     <Compile Include="DAL.cs" />
-    <Compile Include="fAddProduct.cs">
+    <Compile Include="fAddCompany.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fAddProduct.Designer.cs">
+    <Compile Include="fAddCompany.Designer.cs">
+      <DependentUpon>fAddCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduct\fAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduct\fAddProduct.Designer.cs">
       <DependentUpon>fAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduct\fcompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduct\fcompany.Designer.cs">
+      <DependentUpon>fcompany.cs</DependentUpon>
     </Compile>
     <Compile Include="FormProduct\fListProduct.cs">
       <SubType>Form</SubType>
@@ -103,8 +115,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fAddProduct.resx">
+    <EmbeddedResource Include="fAddCompany.resx">
+      <DependentUpon>fAddCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduct\fAddProduct.resx">
       <DependentUpon>fAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProduct\fcompany.resx">
+      <DependentUpon>fcompany.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProduct\fListProduct.resx">
       <DependentUpon>fListProduct.cs</DependentUpon>

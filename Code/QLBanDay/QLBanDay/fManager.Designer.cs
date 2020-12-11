@@ -43,7 +43,7 @@ namespace QLBanDay
             this.panelProduct = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCompany = new System.Windows.Forms.Button();
             this.btnListProduct = new System.Windows.Forms.Button();
             this.btnProduct = new FontAwesome.Sharp.IconButton();
             this.panelDashboard = new System.Windows.Forms.Panel();
@@ -105,7 +105,7 @@ namespace QLBanDay
             // 
             this.panelBill.Controls.Add(this.button8);
             this.panelBill.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBill.Location = new System.Drawing.Point(0, 926);
+            this.panelBill.Location = new System.Drawing.Point(0, 934);
             this.panelBill.Name = "panelBill";
             this.panelBill.Size = new System.Drawing.Size(280, 58);
             this.panelBill.TabIndex = 9;
@@ -142,7 +142,7 @@ namespace QLBanDay
             this.btnBill.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnBill.IconSize = 35;
             this.btnBill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBill.Location = new System.Drawing.Point(0, 866);
+            this.btnBill.Location = new System.Drawing.Point(0, 874);
             this.btnBill.Name = "btnBill";
             this.btnBill.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnBill.Size = new System.Drawing.Size(280, 60);
@@ -157,7 +157,7 @@ namespace QLBanDay
             // 
             this.panelCustomer.Controls.Add(this.button6);
             this.panelCustomer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCustomer.Location = new System.Drawing.Point(0, 802);
+            this.panelCustomer.Location = new System.Drawing.Point(0, 810);
             this.panelCustomer.Name = "panelCustomer";
             this.panelCustomer.Size = new System.Drawing.Size(280, 64);
             this.panelCustomer.TabIndex = 8;
@@ -194,7 +194,7 @@ namespace QLBanDay
             this.btnCustomer.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnCustomer.IconSize = 35;
             this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.Location = new System.Drawing.Point(0, 742);
+            this.btnCustomer.Location = new System.Drawing.Point(0, 750);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnCustomer.Size = new System.Drawing.Size(280, 60);
@@ -209,7 +209,7 @@ namespace QLBanDay
             // 
             this.panelEmployee.Controls.Add(this.button7);
             this.panelEmployee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEmployee.Location = new System.Drawing.Point(0, 681);
+            this.panelEmployee.Location = new System.Drawing.Point(0, 689);
             this.panelEmployee.Name = "panelEmployee";
             this.panelEmployee.Size = new System.Drawing.Size(280, 61);
             this.panelEmployee.TabIndex = 11;
@@ -246,7 +246,7 @@ namespace QLBanDay
             this.btnEmployee.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnEmployee.IconSize = 35;
             this.btnEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployee.Location = new System.Drawing.Point(0, 621);
+            this.btnEmployee.Location = new System.Drawing.Point(0, 629);
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnEmployee.Size = new System.Drawing.Size(280, 60);
@@ -261,12 +261,12 @@ namespace QLBanDay
             // 
             this.panelProduct.Controls.Add(this.button3);
             this.panelProduct.Controls.Add(this.button2);
-            this.panelProduct.Controls.Add(this.button1);
+            this.panelProduct.Controls.Add(this.btnCompany);
             this.panelProduct.Controls.Add(this.btnListProduct);
             this.panelProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelProduct.Location = new System.Drawing.Point(0, 433);
             this.panelProduct.Name = "panelProduct";
-            this.panelProduct.Size = new System.Drawing.Size(280, 188);
+            this.panelProduct.Size = new System.Drawing.Size(280, 196);
             this.panelProduct.TabIndex = 6;
             // 
             // button3
@@ -299,20 +299,21 @@ namespace QLBanDay
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCompany
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(0, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(280, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Nhà cung cấp";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCompany.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCompany.FlatAppearance.BorderSize = 0;
+            this.btnCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompany.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCompany.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnCompany.Location = new System.Drawing.Point(0, 45);
+            this.btnCompany.Name = "btnCompany";
+            this.btnCompany.Size = new System.Drawing.Size(280, 45);
+            this.btnCompany.TabIndex = 0;
+            this.btnCompany.Text = "Nhà cung cấp";
+            this.btnCompany.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCompany.UseVisualStyleBackColor = true;
+            this.btnCompany.Click += new System.EventHandler(this.btnCompany_Click);
             // 
             // btnListProduct
             // 
@@ -629,7 +630,7 @@ namespace QLBanDay
         private System.Windows.Forms.Button btnListProduct;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCompany;
         private System.Windows.Forms.Panel panelBill;
         private System.Windows.Forms.Panel panelCustomer;
         private System.Windows.Forms.Panel panelDashboard;
