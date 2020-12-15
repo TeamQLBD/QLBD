@@ -173,6 +173,11 @@ namespace QLBanDay
             OpenChildForm(new fcompany());
         }
 
+        private void btnUnit_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new fUnit());
+        }
+
         private void btnBrand_Click(object sender, EventArgs e)
         {
             OpenChildForm(new fBrand());
@@ -236,8 +241,13 @@ namespace QLBanDay
         }
 
 
+
+
         #endregion
 
+        private void iconLogOut_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

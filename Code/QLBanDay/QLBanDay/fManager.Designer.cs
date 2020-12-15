@@ -42,7 +42,7 @@ namespace QLBanDay
             this.btnEmployee = new FontAwesome.Sharp.IconButton();
             this.panelProduct = new System.Windows.Forms.Panel();
             this.btnBrand = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnUnit = new System.Windows.Forms.Button();
             this.btnCompany = new System.Windows.Forms.Button();
             this.btnListProduct = new System.Windows.Forms.Button();
             this.btnProduct = new FontAwesome.Sharp.IconButton();
@@ -266,7 +266,7 @@ namespace QLBanDay
             // panelProduct
             // 
             this.panelProduct.Controls.Add(this.btnBrand);
-            this.panelProduct.Controls.Add(this.button2);
+            this.panelProduct.Controls.Add(this.btnUnit);
             this.panelProduct.Controls.Add(this.btnCompany);
             this.panelProduct.Controls.Add(this.btnListProduct);
             this.panelProduct.Dock = System.Windows.Forms.DockStyle.Top;
@@ -292,21 +292,22 @@ namespace QLBanDay
             this.btnBrand.UseVisualStyleBackColor = true;
             this.btnBrand.Click += new System.EventHandler(this.btnBrand_Click);
             // 
-            // button2
+            // btnUnit
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(0, 90);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(280, 45);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Đơn vị tính";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnUnit.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUnit.FlatAppearance.BorderSize = 0;
+            this.btnUnit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnit.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnUnit.Location = new System.Drawing.Point(0, 90);
+            this.btnUnit.Name = "btnUnit";
+            this.btnUnit.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
+            this.btnUnit.Size = new System.Drawing.Size(280, 45);
+            this.btnUnit.TabIndex = 1;
+            this.btnUnit.Text = "Đơn vị tính";
+            this.btnUnit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUnit.UseVisualStyleBackColor = true;
+            this.btnUnit.Click += new System.EventHandler(this.btnUnit_Click);
             // 
             // btnCompany
             // 
@@ -489,6 +490,7 @@ namespace QLBanDay
             // 
             this.iconLogOut.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
+            this.iconLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconLogOut.ForeColor = System.Drawing.Color.Gainsboro;
             this.iconLogOut.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.iconLogOut.IconColor = System.Drawing.Color.Gainsboro;
@@ -499,6 +501,7 @@ namespace QLBanDay
             this.iconLogOut.Size = new System.Drawing.Size(32, 32);
             this.iconLogOut.TabIndex = 4;
             this.iconLogOut.TabStop = false;
+            this.iconLogOut.Click += new System.EventHandler(this.iconLogOut_Click);
             // 
             // IconUser
             // 
@@ -679,7 +682,7 @@ namespace QLBanDay
         private System.Windows.Forms.Panel panelProduct;
         private System.Windows.Forms.Button btnListProduct;
         private System.Windows.Forms.Button btnBrand;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnUnit;
         private System.Windows.Forms.Button btnCompany;
         private System.Windows.Forms.Panel panelBill;
         private System.Windows.Forms.Panel panelCustomer;

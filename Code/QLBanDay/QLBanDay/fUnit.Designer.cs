@@ -1,7 +1,7 @@
 ﻿
 namespace QLBanDay
 {
-    partial class fBrand
+    partial class fUnit
     {
         /// <summary>
         /// Required designer variable.
@@ -32,21 +32,48 @@ namespace QLBanDay
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dgvProduct = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new FontAwesome.Sharp.IconButton();
             this.btnEdit = new FontAwesome.Sharp.IconButton();
             this.btnDelete = new FontAwesome.Sharp.IconButton();
             this.btnAdd = new FontAwesome.Sharp.IconButton();
-            this.dgvProduct = new System.Windows.Forms.DataGridView();
-            this.nameBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dayCreateBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel1.SuspendLayout();
+            this.nameUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dayCreateUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // dgvProduct
+            // 
+            this.dgvProduct.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgvProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvProduct.BackgroundColor = System.Drawing.Color.White;
+            this.dgvProduct.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dgvProduct.ColumnHeadersHeight = 40;
+            this.dgvProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nameUnit,
+            this.dayCreateUnit,
+            this.statusUnit});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.2F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LavenderBlush;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProduct.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvProduct.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvProduct.GridColor = System.Drawing.Color.White;
+            this.dgvProduct.Location = new System.Drawing.Point(0, 56);
+            this.dgvProduct.Name = "dgvProduct";
+            this.dgvProduct.RowHeadersWidth = 40;
+            this.dgvProduct.Size = new System.Drawing.Size(963, 668);
+            this.dgvProduct.TabIndex = 4;
             // 
             // panel1
             // 
@@ -60,7 +87,7 @@ namespace QLBanDay
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(963, 56);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 3;
             // 
             // txtSearch
             // 
@@ -149,100 +176,54 @@ namespace QLBanDay
             this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // dgvProduct
+            // nameUnit
             // 
-            this.dgvProduct.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dgvProduct.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvProduct.BackgroundColor = System.Drawing.Color.White;
-            this.dgvProduct.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvProduct.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.dgvProduct.ColumnHeadersHeight = 40;
-            this.dgvProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nameBrand,
-            this.idBrand,
-            this.descriptionBrand,
-            this.dayCreateBrand,
-            this.statusBrand});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.2F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LavenderBlush;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProduct.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvProduct.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvProduct.GridColor = System.Drawing.Color.White;
-            this.dgvProduct.Location = new System.Drawing.Point(0, 56);
-            this.dgvProduct.Name = "dgvProduct";
-            this.dgvProduct.RowHeadersWidth = 40;
-            this.dgvProduct.Size = new System.Drawing.Size(963, 668);
-            this.dgvProduct.TabIndex = 2;
-            // 
-            // nameBrand
-            // 
-            this.nameBrand.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nameUnit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.nameBrand.DefaultCellStyle = dataGridViewCellStyle2;
-            this.nameBrand.HeaderText = "Tên";
-            this.nameBrand.Name = "nameBrand";
-            this.nameBrand.ReadOnly = true;
+            this.nameUnit.DefaultCellStyle = dataGridViewCellStyle2;
+            this.nameUnit.HeaderText = "Tên";
+            this.nameUnit.Name = "nameUnit";
+            this.nameUnit.ReadOnly = true;
             // 
-            // idBrand
+            // dayCreateUnit
             // 
-            this.idBrand.HeaderText = "Mã";
-            this.idBrand.Name = "idBrand";
-            this.idBrand.ReadOnly = true;
+            this.dayCreateUnit.HeaderText = "Ngày tạo";
+            this.dayCreateUnit.Name = "dayCreateUnit";
+            this.dayCreateUnit.ReadOnly = true;
             // 
-            // descriptionBrand
+            // statusUnit
             // 
-            this.descriptionBrand.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.descriptionBrand.HeaderText = "Mô tả";
-            this.descriptionBrand.Name = "descriptionBrand";
-            this.descriptionBrand.ReadOnly = true;
+            this.statusUnit.HeaderText = "Trạng thái";
+            this.statusUnit.Name = "statusUnit";
+            this.statusUnit.ReadOnly = true;
             // 
-            // dayCreateBrand
-            // 
-            this.dayCreateBrand.HeaderText = "Ngày tạo";
-            this.dayCreateBrand.Name = "dayCreateBrand";
-            this.dayCreateBrand.ReadOnly = true;
-            // 
-            // statusBrand
-            // 
-            this.statusBrand.HeaderText = "Trạng thái";
-            this.statusBrand.Name = "statusBrand";
-            this.statusBrand.ReadOnly = true;
-            // 
-            // fBrand
+            // fUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(963, 724);
             this.Controls.Add(this.dgvProduct);
             this.Controls.Add(this.panel1);
-            this.Name = "fBrand";
-            this.Text = "fBrand";
+            this.Name = "fUnit";
+            this.Text = "fUnit";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.DataGridView dgvProduct;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtSearch;
         private FontAwesome.Sharp.IconButton btnSearch;
         private FontAwesome.Sharp.IconButton btnEdit;
         private FontAwesome.Sharp.IconButton btnDelete;
         private FontAwesome.Sharp.IconButton btnAdd;
-        private System.Windows.Forms.DataGridView dgvProduct;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameBrand;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idBrand;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionBrand;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dayCreateBrand;
-        private System.Windows.Forms.DataGridViewTextBoxColumn statusBrand;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameUnit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dayCreateUnit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn statusUnit;
     }
 }
