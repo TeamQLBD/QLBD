@@ -78,10 +78,10 @@ namespace QLBanDay
                 currentBtn = (IconButton)senderBtn;
                 currentBtn.BackColor = Color.FromArgb(20, 20, 45);
                 currentBtn.ForeColor = color;
-                currentBtn.TextAlign = ContentAlignment.MiddleCenter;
+                //currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
-                currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
-                currentBtn.ImageAlign = ContentAlignment.MiddleRight;
+                //currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
+                //currentBtn.ImageAlign = ContentAlignment.MiddleRight;
                 //Left border button
                 leftBorderBtn.BackColor = color;
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
@@ -173,6 +173,11 @@ namespace QLBanDay
             OpenChildForm(new fcompany());
         }
 
+        private void btnBrand_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new fBrand());
+        }
+
         private void btnEmployee_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
@@ -230,6 +235,9 @@ namespace QLBanDay
                 WindowState = FormWindowState.Normal;
         }
 
+
         #endregion
+
+
     }
 }
