@@ -31,67 +31,51 @@ namespace QLBanDay
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fManager));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelBill = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
             this.btnBill = new FontAwesome.Sharp.IconButton();
-            this.panelCustomer = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.btnCustomer = new FontAwesome.Sharp.IconButton();
-            this.panelEmployee = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
             this.btnEmployee = new FontAwesome.Sharp.IconButton();
             this.btnProduct = new FontAwesome.Sharp.IconButton();
-            this.panelDashboard = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.btnDashboard = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.iconBars = new FontAwesome.Sharp.IconPictureBox();
             this.IconUser = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.iconBars = new FontAwesome.Sharp.IconPictureBox();
             this.iconMininum = new FontAwesome.Sharp.IconPictureBox();
             this.iconExit = new FontAwesome.Sharp.IconPictureBox();
             this.ionMaxinum = new FontAwesome.Sharp.IconPictureBox();
             this.lblTitleChildForm = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconPictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelBars = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
-            this.panelBill.SuspendLayout();
-            this.panelCustomer.SuspendLayout();
-            this.panelEmployee.SuspendLayout();
-            this.panelDashboard.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTitleBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBars)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMininum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ionMaxinum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).BeginInit();
             this.panelDesktop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelBars.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(40)))));
-            this.panelMenu.Controls.Add(this.panelBill);
             this.panelMenu.Controls.Add(this.btnBill);
-            this.panelMenu.Controls.Add(this.panelCustomer);
             this.panelMenu.Controls.Add(this.btnCustomer);
-            this.panelMenu.Controls.Add(this.panelEmployee);
             this.panelMenu.Controls.Add(this.btnEmployee);
             this.panelMenu.Controls.Add(this.btnProduct);
-            this.panelMenu.Controls.Add(this.panelDashboard);
             this.panelMenu.Controls.Add(this.btnDashboard);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Controls.Add(this.panelLogo);
@@ -100,31 +84,6 @@ namespace QLBanDay
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(280, 1061);
             this.panelMenu.TabIndex = 1;
-            // 
-            // panelBill
-            // 
-            this.panelBill.Controls.Add(this.button8);
-            this.panelBill.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBill.Location = new System.Drawing.Point(0, 738);
-            this.panelBill.Name = "panelBill";
-            this.panelBill.Size = new System.Drawing.Size(280, 58);
-            this.panelBill.TabIndex = 9;
-            // 
-            // button8
-            // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button8.Location = new System.Drawing.Point(0, 0);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(280, 45);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "Danh sách khách hàng";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // btnBill
             // 
@@ -143,7 +102,7 @@ namespace QLBanDay
             this.btnBill.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnBill.IconSize = 35;
             this.btnBill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBill.Location = new System.Drawing.Point(0, 678);
+            this.btnBill.Location = new System.Drawing.Point(0, 490);
             this.btnBill.Name = "btnBill";
             this.btnBill.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnBill.Size = new System.Drawing.Size(280, 60);
@@ -153,31 +112,6 @@ namespace QLBanDay
             this.btnBill.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBill.UseVisualStyleBackColor = false;
             this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
-            // 
-            // panelCustomer
-            // 
-            this.panelCustomer.Controls.Add(this.button6);
-            this.panelCustomer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCustomer.Location = new System.Drawing.Point(0, 614);
-            this.panelCustomer.Name = "panelCustomer";
-            this.panelCustomer.Size = new System.Drawing.Size(280, 64);
-            this.panelCustomer.TabIndex = 8;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(280, 45);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Danh sách khách hàng";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // btnCustomer
             // 
@@ -196,7 +130,7 @@ namespace QLBanDay
             this.btnCustomer.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnCustomer.IconSize = 35;
             this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.Location = new System.Drawing.Point(0, 554);
+            this.btnCustomer.Location = new System.Drawing.Point(0, 430);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnCustomer.Size = new System.Drawing.Size(280, 60);
@@ -206,31 +140,6 @@ namespace QLBanDay
             this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCustomer.UseVisualStyleBackColor = false;
             this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
-            // 
-            // panelEmployee
-            // 
-            this.panelEmployee.Controls.Add(this.button7);
-            this.panelEmployee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEmployee.Location = new System.Drawing.Point(0, 493);
-            this.panelEmployee.Name = "panelEmployee";
-            this.panelEmployee.Size = new System.Drawing.Size(280, 61);
-            this.panelEmployee.TabIndex = 11;
-            // 
-            // button7
-            // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(280, 45);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Danh sách khách hàng";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // btnEmployee
             // 
@@ -249,7 +158,7 @@ namespace QLBanDay
             this.btnEmployee.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnEmployee.IconSize = 35;
             this.btnEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmployee.Location = new System.Drawing.Point(0, 433);
+            this.btnEmployee.Location = new System.Drawing.Point(0, 370);
             this.btnEmployee.Name = "btnEmployee";
             this.btnEmployee.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnEmployee.Size = new System.Drawing.Size(280, 60);
@@ -277,7 +186,7 @@ namespace QLBanDay
             this.btnProduct.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnProduct.IconSize = 35;
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProduct.Location = new System.Drawing.Point(0, 373);
+            this.btnProduct.Location = new System.Drawing.Point(0, 310);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnProduct.Size = new System.Drawing.Size(280, 60);
@@ -287,31 +196,6 @@ namespace QLBanDay
             this.btnProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProduct.UseVisualStyleBackColor = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
-            // 
-            // panelDashboard
-            // 
-            this.panelDashboard.Controls.Add(this.button5);
-            this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelDashboard.Location = new System.Drawing.Point(0, 310);
-            this.panelDashboard.Name = "panelDashboard";
-            this.panelDashboard.Size = new System.Drawing.Size(280, 63);
-            this.panelDashboard.TabIndex = 7;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button5.Location = new System.Drawing.Point(0, 0);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(55, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(280, 45);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Nhà cung cấp";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // btnDashboard
             // 
@@ -402,21 +286,6 @@ namespace QLBanDay
             this.panelTitleBar.TabIndex = 2;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
             // 
-            // iconBars
-            // 
-            this.iconBars.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconBars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
-            this.iconBars.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconBars.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconBars.IconChar = FontAwesome.Sharp.IconChar.Bars;
-            this.iconBars.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconBars.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            this.iconBars.Location = new System.Drawing.Point(12, 17);
-            this.iconBars.Name = "iconBars";
-            this.iconBars.Size = new System.Drawing.Size(32, 32);
-            this.iconBars.TabIndex = 4;
-            this.iconBars.TabStop = false;
-            // 
             // IconUser
             // 
             this.IconUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -448,6 +317,21 @@ namespace QLBanDay
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(196, 58);
             this.panel2.TabIndex = 2;
+            // 
+            // iconBars
+            // 
+            this.iconBars.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconBars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
+            this.iconBars.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconBars.ForeColor = System.Drawing.Color.Gainsboro;
+            this.iconBars.IconChar = FontAwesome.Sharp.IconChar.Bars;
+            this.iconBars.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconBars.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.iconBars.Location = new System.Drawing.Point(12, 17);
+            this.iconBars.Name = "iconBars";
+            this.iconBars.Size = new System.Drawing.Size(32, 32);
+            this.iconBars.TabIndex = 4;
+            this.iconBars.TabStop = false;
             // 
             // iconMininum
             // 
@@ -531,17 +415,6 @@ namespace QLBanDay
             this.panelDesktop.TabIndex = 3;
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(219, 307);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(633, 368);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panelBars
             // 
             this.panelBars.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -551,22 +424,6 @@ namespace QLBanDay
             this.panelBars.Name = "panelBars";
             this.panelBars.Size = new System.Drawing.Size(110, 64);
             this.panelBars.TabIndex = 4;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Profile";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -584,6 +441,33 @@ namespace QLBanDay
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(60)))));
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Profile";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(219, 307);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(633, 368);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // fManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -599,23 +483,19 @@ namespace QLBanDay
             this.Text = "  ";
             this.Load += new System.EventHandler(this.fManager_Load);
             this.panelMenu.ResumeLayout(false);
-            this.panelBill.ResumeLayout(false);
-            this.panelCustomer.ResumeLayout(false);
-            this.panelEmployee.ResumeLayout(false);
-            this.panelDashboard.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBars)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMininum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ionMaxinum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconCurrentChildForm)).EndInit();
             this.panelDesktop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelBars.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -638,15 +518,7 @@ namespace QLBanDay
         private FontAwesome.Sharp.IconPictureBox ionMaxinum;
         private FontAwesome.Sharp.IconPictureBox iconExit;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panelBill;
-        private System.Windows.Forms.Panel panelCustomer;
-        private System.Windows.Forms.Panel panelDashboard;
         private FontAwesome.Sharp.IconButton btnEmployee;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panelEmployee;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
         private FontAwesome.Sharp.IconPictureBox iconBars;
         private FontAwesome.Sharp.IconButton IconUser;
         private System.Windows.Forms.Panel panelBars;

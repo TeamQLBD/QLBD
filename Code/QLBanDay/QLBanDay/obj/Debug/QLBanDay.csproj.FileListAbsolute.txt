@@ -21,3 +21,4 @@ F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fcompany.res
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fAddCompany.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fBrand.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fUnit.resources
+F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.Form1.resources

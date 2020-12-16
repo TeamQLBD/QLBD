@@ -27,10 +27,10 @@ namespace QLBanDay
         private void hideSubMenu()
         {
             //panelProduct.Visible = false;
-            panelBill.Visible = false;
-            panelCustomer.Visible = false;
-            panelDashboard.Visible = false;
-            panelEmployee.Visible = false;
+            //panelBill.Visible = false;
+            //panelCustomer.Visible = false;
+            //panelDashboard.Visible = false;
+            //panelEmployee.Visible = false;
             panelBars.Visible = false;
         }
 
@@ -153,7 +153,8 @@ namespace QLBanDay
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            showSubMenu(panelDashboard);
+            OpenChildForm(new Form1());
+            //showSubMenu(panelDashboard);
             //OpenChildForm(new fDashboard());
         }
 
@@ -168,21 +169,21 @@ namespace QLBanDay
         private void btnEmployee_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            showSubMenu(panelEmployee);
+            //showSubMenu(panelEmployee);
             //OpenChildForm(new fCustomer());
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            showSubMenu(panelCustomer);
+            //showSubMenu(panelCustomer);
             //OpenChildForm(new fCustomer());
         }
 
         private void btnBill_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            showSubMenu(panelBill);
+            //showSubMenu(panelBill);
             //OpenChildForm(new fBill());
         }
 
