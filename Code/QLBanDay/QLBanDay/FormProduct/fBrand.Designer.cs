@@ -222,7 +222,7 @@ namespace QLBanDay
             this.Controls.Add(this.dgvProduct);
             this.Controls.Add(this.panel1);
             this.Name = "fBrand";
-            this.Text = "fBrand";
+            this.Text = "Nhãn hiệu";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();

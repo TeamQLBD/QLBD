@@ -33,15 +33,15 @@ namespace QLBanDay
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvProduct = new System.Windows.Forms.DataGridView();
+            this.nameUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dayCreateUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new FontAwesome.Sharp.IconButton();
             this.btnEdit = new FontAwesome.Sharp.IconButton();
             this.btnDelete = new FontAwesome.Sharp.IconButton();
             this.btnAdd = new FontAwesome.Sharp.IconButton();
-            this.nameUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dayCreateUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +74,27 @@ namespace QLBanDay
             this.dgvProduct.RowHeadersWidth = 40;
             this.dgvProduct.Size = new System.Drawing.Size(963, 668);
             this.dgvProduct.TabIndex = 4;
+            // 
+            // nameUnit
+            // 
+            this.nameUnit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.nameUnit.DefaultCellStyle = dataGridViewCellStyle2;
+            this.nameUnit.HeaderText = "Tên";
+            this.nameUnit.Name = "nameUnit";
+            this.nameUnit.ReadOnly = true;
+            // 
+            // dayCreateUnit
+            // 
+            this.dayCreateUnit.HeaderText = "Ngày tạo";
+            this.dayCreateUnit.Name = "dayCreateUnit";
+            this.dayCreateUnit.ReadOnly = true;
+            // 
+            // statusUnit
+            // 
+            this.statusUnit.HeaderText = "Trạng thái";
+            this.statusUnit.Name = "statusUnit";
+            this.statusUnit.ReadOnly = true;
             // 
             // panel1
             // 
@@ -176,27 +197,6 @@ namespace QLBanDay
             this.btnAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
-            // nameUnit
-            // 
-            this.nameUnit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.nameUnit.DefaultCellStyle = dataGridViewCellStyle2;
-            this.nameUnit.HeaderText = "Tên";
-            this.nameUnit.Name = "nameUnit";
-            this.nameUnit.ReadOnly = true;
-            // 
-            // dayCreateUnit
-            // 
-            this.dayCreateUnit.HeaderText = "Ngày tạo";
-            this.dayCreateUnit.Name = "dayCreateUnit";
-            this.dayCreateUnit.ReadOnly = true;
-            // 
-            // statusUnit
-            // 
-            this.statusUnit.HeaderText = "Trạng thái";
-            this.statusUnit.Name = "statusUnit";
-            this.statusUnit.ReadOnly = true;
-            // 
             // fUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,7 +205,7 @@ namespace QLBanDay
             this.Controls.Add(this.dgvProduct);
             this.Controls.Add(this.panel1);
             this.Name = "fUnit";
-            this.Text = "fUnit";
+            this.Text = "Đơn vị tính";
             ((System.ComponentModel.ISupportInitialize)(this.dgvProduct)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

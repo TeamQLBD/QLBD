@@ -119,10 +119,10 @@
     <Compile Include="FormProduct\fProduct.Designer.cs">
       <DependentUpon>fProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="fUnit.cs">
+    <Compile Include="FormProduct\fUnit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fUnit.Designer.cs">
+    <Compile Include="FormProduct\fUnit.Designer.cs">
       <DependentUpon>fUnit.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -160,7 +160,7 @@
     <EmbeddedResource Include="FormProduct\fProduct.resx">
       <DependentUpon>fProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fUnit.resx">
+    <EmbeddedResource Include="FormProduct\fUnit.resx">
       <DependentUpon>fUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

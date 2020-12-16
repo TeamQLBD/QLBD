@@ -26,11 +26,12 @@ namespace QLBanDay
 
         private void hideSubMenu()
         {
-            panelProduct.Visible = false;
+            //panelProduct.Visible = false;
             panelBill.Visible = false;
             panelCustomer.Visible = false;
             panelDashboard.Visible = false;
             panelEmployee.Visible = false;
+            panelBars.Visible = false;
         }
 
         private void showSubMenu(Panel subMenu)
@@ -159,29 +160,10 @@ namespace QLBanDay
         private void btnProduct_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
-            showSubMenu(panelProduct);
-            //OpenChildForm(new fProduct());
-        }
-
-        private void btnListProduct_Click(object sender, EventArgs e)
-        {
+            //showSubMenu(panelProduct);
             OpenChildForm(new fListProduct());
         }
 
-        private void btnCompany_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new fcompany());
-        }
-
-        private void btnUnit_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new fUnit());
-        }
-
-        private void btnBrand_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new fBrand());
-        }
 
         private void btnEmployee_Click(object sender, EventArgs e)
         {
@@ -204,7 +186,12 @@ namespace QLBanDay
             //OpenChildForm(new fBill());
         }
 
-#endregion
+        private void iconLogOut_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelBars);
+        }
+
+        #endregion
 
         #region start exit-min-max_room
         ////Close-Maximize-Minimize
@@ -245,7 +232,7 @@ namespace QLBanDay
 
         #endregion
 
-        private void iconLogOut_Click(object sender, EventArgs e)
+        private void panelDesktop_Paint(object sender, PaintEventArgs e)
         {
 
         }
