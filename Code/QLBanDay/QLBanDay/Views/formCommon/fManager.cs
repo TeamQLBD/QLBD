@@ -153,7 +153,6 @@ namespace QLBanDay
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
-            OpenChildForm(new Form1());
             //showSubMenu(panelDashboard);
             //OpenChildForm(new fDashboard());
         }

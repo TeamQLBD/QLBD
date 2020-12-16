@@ -51,126 +51,63 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL.cs" />
-    <Compile Include="common.cs" />
+    <Compile Include="Controllers\common.cs" />
     <Compile Include="DAL.cs" />
-    <Compile Include="form\Form1.cs">
+    <Compile Include="Views\FormProduct\fAddCompany.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProduct\fBrand.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProduct\fBrand.Designer.cs">
-      <DependentUpon>fBrand.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProduct\fAddCompany.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProduct\fAddCompany.Designer.cs">
+    <Compile Include="Views\FormProduct\fAddCompany.Designer.cs">
       <DependentUpon>fAddCompany.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProduct\fAddProduct.cs">
+    <Compile Include="Views\FormProduct\fAddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProduct\fAddProduct.Designer.cs">
+    <Compile Include="Views\FormProduct\fAddProduct.Designer.cs">
       <DependentUpon>fAddProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProduct\fcompany.cs">
+    <Compile Include="Views\FormProduct\fcompany.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProduct\fcompany.Designer.cs">
+    <Compile Include="Views\FormProduct\fcompany.Designer.cs">
       <DependentUpon>fcompany.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProduct\fListProduct.cs">
+    <Compile Include="Views\FormProduct\fListProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProduct\fListProduct.Designer.cs">
+    <Compile Include="Views\FormProduct\fListProduct.Designer.cs">
       <DependentUpon>fListProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\fBill.cs">
+    <Compile Include="Views\formCommon\fManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\fBill.Designer.cs">
-      <DependentUpon>fBill.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form\fCustomer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form\fCustomer.Designer.cs">
-      <DependentUpon>fCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="form\fDashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="form\fDashboard.Designer.cs">
-      <DependentUpon>fDashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fManager.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fManager.Designer.cs">
+    <Compile Include="Views\formCommon\fManager.Designer.cs">
       <DependentUpon>fManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="fLogin.cs">
+    <Compile Include="Views\formCommon\fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fLogin.Designer.cs">
+    <Compile Include="Views\formCommon\fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProduct\fProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProduct\fProduct.Designer.cs">
-      <DependentUpon>fProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormProduct\fUnit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProduct\fUnit.Designer.cs">
-      <DependentUpon>fUnit.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="form\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fBrand.resx">
-      <DependentUpon>fBrand.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fAddCompany.resx">
+    <EmbeddedResource Include="Views\FormProduct\fAddCompany.resx">
       <DependentUpon>fAddCompany.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fAddProduct.resx">
+    <EmbeddedResource Include="Views\FormProduct\fAddProduct.resx">
       <DependentUpon>fAddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fcompany.resx">
+    <EmbeddedResource Include="Views\FormProduct\fcompany.resx">
       <DependentUpon>fcompany.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fListProduct.resx">
+    <EmbeddedResource Include="Views\FormProduct\fListProduct.resx">
       <DependentUpon>fListProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form\fBill.resx">
-      <DependentUpon>fBill.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form\fCustomer.resx">
-      <DependentUpon>fCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="form\fDashboard.resx">
-      <DependentUpon>fDashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fManager.resx">
+    <EmbeddedResource Include="Views\formCommon\fManager.resx">
       <DependentUpon>fManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fLogin.resx">
+    <EmbeddedResource Include="Views\formCommon\fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fProduct.resx">
-      <DependentUpon>fProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormProduct\fUnit.resx">
-      <DependentUpon>fUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -195,6 +132,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

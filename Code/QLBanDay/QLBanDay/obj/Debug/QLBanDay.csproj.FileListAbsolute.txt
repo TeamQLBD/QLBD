@@ -11,14 +11,7 @@ F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.csproj.CopyC
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.exe
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.pdb
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fLogin.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fDashboard.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fCustomer.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fProduct.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fListProduct.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fAddProduct.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fBill.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fcompany.resources
 F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fAddCompany.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fBrand.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.fUnit.resources
-F:\Hoc Chinh\C#\BaiTapLon\Code\QLBanDay\QLBanDay\obj\Debug\QLBanDay.Form1.resources
