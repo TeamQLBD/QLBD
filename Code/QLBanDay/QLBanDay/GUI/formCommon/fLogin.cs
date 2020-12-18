@@ -27,20 +27,26 @@ namespace QLBanDay
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            fManager f = new fManager();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            string userName = txtAccount.Text;
+            string passWord = txtPassWord.Text;
+            if (Login(userName, passWord))
+            {
+                fManager f = new fManager();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            MessageBox.Show("Sai tên Tài khoản hoặc Mật khẩu!");
         }
 
+        bool Login(string userName, string passWord)
+        {
+            return false;
+        }
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnLogin_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
